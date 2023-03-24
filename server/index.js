@@ -14,7 +14,7 @@ console.log(process.env.ATLAS_URI);
 
 
 const port = process.env.PORT || 5000;
-const uri = process.env.ATLAS_URI || 'mongodb://localhost/transcribe-it';
+const uri = process.env.ATLAS_URI;
 
 
 mongoose.connect(uri, { 
